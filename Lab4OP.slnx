@@ -3,8 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Lab4OP1/Lab4OP1.vcxproj" />
-  <Project Path="Lab4OP2/Lab4OP2.vcxproj" />
-  <Project Path="Lab4OP3/Lab4OP3.vcxproj" />
-  <Project Path="Lab4OP4/Lab4OP4.vcxproj" />
+  <Project Path="Lab4OP1/Lab4OP1.vcxproj" Id="0746772e-8072-4ede-a80d-cad47cbf52f2" />
+  <Project Path="Lab4OP2/Lab4OP2.vcxproj" Id="fa4785df-a81d-438e-8467-662856e7d58c" />
+  <Project Path="Lab4OP3/Lab4OP3.vcxproj" Id="4176ec1f-faeb-490d-978a-7e74750697cd" />
+  <Project Path="Lab4OP4/Lab4OP4.vcxproj" Id="297b0c32-5f60-4dde-a079-043b060fe734" />
 </Solution>

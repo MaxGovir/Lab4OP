@@ -36,7 +36,6 @@ bool bitwise_less_than(int a, int b) {
     return diff < 0;
 }
 
-
 int main() {
     
     setlocale(LC_ALL, "Ukrainian");
@@ -44,13 +43,8 @@ int main() {
     
     cout << boolalpha;
 
-    cout << "--- Завдання 3 (Варіант 3) ---" << endl;
-    cout << "Моделювання операцій на бітовому рівні.\n" << endl;
 
-
-    cout << "## 1. Операція відношення < (bitwise_less_than)" << endl;
-
-    cout << "Перевірка 1 (84 < 83):   " << bitwise_less_than(84, 83)
+    cout << "Перевірка 1 (84 < 83):   " << bitwise_less_than(84, 83) //Операція відношення
         << " (Очікувано: false)" << endl;
 
     cout << "Перевірка 2 (-77 < -77): " << bitwise_less_than(-77, -77)
@@ -59,12 +53,8 @@ int main() {
     cout << "Перевірка 3 (63 < 127):  " << bitwise_less_than(63, 127)
         << " (Очікувано: true)" << endl;
 
-    cout << "\n----------------------------------------\n" << endl;
+    cout << "Перевірка 1 (-10 + 12): " << bitwise_add(-10, 12) //Операція додавання
 
-    
-    cout << "## 2. Операція додавання + (bitwise_add)" << endl;
-
-    cout << "Перевірка 1 (-10 + 12): " << bitwise_add(-10, 12)
         << " (Очікувано: 2)" << endl;
 
     cout << "Перевірка 2 (15 + 41):  " << bitwise_add(15, 41)

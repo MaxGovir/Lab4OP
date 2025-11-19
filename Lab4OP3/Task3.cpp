@@ -11,12 +11,11 @@ int main() {
     
     double pi = 3.0;
 
-    cout << "--- Завдання (Варіант 3) ---" << endl;
     cout << "Глобальна змінна ::pi = " << ::pi << endl;
     cout << "Локальна змінна pi   = " << pi << "\n" << endl;
 
     
-    int iterations = 3; // Виконаємо цикл 3 рази для демонстрації
+    int iterations = 3; // цикл 3 рази 
     for (int i = 0; i < iterations; ++i) {
 
         
@@ -26,7 +25,7 @@ int main() {
         cout << "--- Ітерація (static count: " << loopExecutionCounter << ") ---" << endl;
 
         
-        double product = ::pi * pi; // 3.14 * 3.0
+        double product = ::pi * pi; 
 
         
         double* dynamicResult = new double;
@@ -34,12 +33,9 @@ int main() {
 
        
         *dynamicResult = product;
-        cout << "  - Добуток (::pi * pi) = " << *dynamicResult << " (збережено в купі)" << endl;
-
+        cout << "  - Добуток (::pi * pi) = " << *dynamicResult << endl;
         
         delete dynamicResult;
-        cout << "  - Пам'ять звільнено." << endl;
-
         
         dynamicResult = nullptr;
     }
